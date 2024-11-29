@@ -1,0 +1,93 @@
+/* styles.css */
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 320px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#pantalla {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.5em;
+    text-align: right;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+table {
+    width: 100%;
+    border-spacing: 10px;
+}
+
+td {
+    width: 25%;
+}
+
+input[type="button"] {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.2em;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="button"]:hover {
+    background-color: #0056b3;
+}
+
+input[type="button"]:active {
+    background-color: #003f7f;
+    box-shadow: none;
+}
+
+input[type="button"][name="borrar"] {
+    background-color: #FF4D4D;
+}
+
+input[type="button"][name="borrar"]:hover {
+    background-color: #CC0000;
+}
+
+input[type="button"][name="borrar"]:active {
+    background-color: #990000;
+}
+
+input[type="button"][name="igual"] {
+    background-color: #28A745;
+}
+
+input[type="button"][name="igual"]:hover {
+    background-color: #1e7d34;
+}
+
+input[type="button"][name="igual"]:active {
+    background-color: #155724;
+}
