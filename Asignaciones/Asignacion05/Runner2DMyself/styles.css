@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #28a745;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#game-container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: green;
+    border: 2px solid black;
+    overflow: hidden;
+}
+
+#player {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    bottom: 20px;
+    left: 50px;
+}
+
+#obstacle {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    bottom: 20px;
+    right: 0;
+    animation: moveObstacle 2s linear infinite;
+}
+
+@keyframes moveObstacle {
+    from {
+        right: 0;
+    }
+    to {
+        right: 320px;
+    }
+}
+
+#start-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#start-btn:active {
+    background-color: #0056b3;
+}
