@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra Papel Tijera</title>
+
+    <link rel="stylesheet" href="css/master.css">
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body class="fondo">
+    
+<center>
+    <h1>Juego Piedra, Papel y Tijeras</h1>
+    <table>
+        <tr>
+            <td>
+                <span>Jugada de la computadora: </span>
+            </td>
+            <td>
+                <input type="text" name="jugadaComputadora" value="OCULTA" disabled id="jugadaComputadora">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span>Jugada del Usuario</span>
+            </td>
+            <td>
+                <input type="text" name="jugadaUsuario" value="" placeholder="PIEDRA, PAPEL O TIJERA" id="jugadaUsuario">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span>Resultado:</span>
+            </td>
+            <td>
+                <input type="text" name="resultado" value="¿?" disabled id="resultado">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" name="jugar" value="¡Jugar!" onclick="evaluarJuego()">
+            </td>
+            <td>
+                <input type="button" name="volverAJugar" value="Volver a Jugar" onclick="volverAJugar()">
+            </td>
+        </tr>
+    </table>
+</center>
+
+
+</body>
+</html>
